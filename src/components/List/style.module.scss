@@ -1,0 +1,100 @@
+@import "../../style/variables.scss";
+@import "../../style/template.scss";
+
+.conteuner {
+    height: 64vh;
+}
+
+.cont {
+    height: 20vw;
+    padding-left: 3%;
+    overflow: scroll;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid $color1;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 90vw;
+    align-items: center;
+    justify-items: center;
+    padding: 0.5vw;
+
+
+}
+
+.listTitle {
+    padding-bottom: 1vw;
+    border: 1px solid $color1;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.listNone {
+    display: none;
+}
+
+.inputCont {
+    background-color: $color2;
+    border: none;
+    color: $color1;
+    width: 17vw;
+    height: 4vh;
+    @include text1
+}
+
+.inputCont:focus {
+    background-color: $color1;
+    color: aliceblue;
+}
+
+.iconCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.icon {
+    width: 3vw;
+}
+
+.icon1 {
+    width: 2vw;
+}
+
+.inputError {
+    border: 1px solid red;
+}
+
+.btn {
+    background-color: $color3;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+
+
+@media (min-width: 650px) and (max-width: 1023px) {
+
+    /* CSS-стили Tablet*/
+
+    .icon {
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 649px) {
+
+    /* CSS-стили Smartphone*/
+    .icon {
+        width: 8vw;
+    }
+}

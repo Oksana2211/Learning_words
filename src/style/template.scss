@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+$font: 'Raleway', sans-serif;
+
+
+
+@mixin text1 {
+    font-family: $font;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+
+@mixin text2 {
+    font-family: $font;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+@mixin text3 {
+    font-family: $font;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+@mixin text4 {
+    font-family: $font;
+    font-weight: 400;
+    font-size: 1rem;
+}

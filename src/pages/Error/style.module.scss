@@ -1,0 +1,32 @@
+@import "../../style/variables.scss";
+@import "../../style//template.scss";
+
+.conteuner {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 86vh;
+    background-color: $color2;
+}
+
+.cont {
+    height: 30vh;
+    width: 45vw;
+}
+
+.text {
+    @include text2;
+    margin-bottom: 8vw;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    /* CSS-стили Tablet*/
+
+}
+
+@media screen and (max-width: 599px) {
+    /* CSS-стили Smartphone*/
+
+}

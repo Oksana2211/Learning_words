@@ -1,0 +1,69 @@
+@import "../../style/variables.scss";
+@import "../../style/template.scss";
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    background-color: $color1;
+    @include text2;
+}
+
+.library_img {
+    height: 100%;
+    width: 100%;
+}
+
+.content_block {
+    background-color: $color3;
+    height: 70%;
+    margin-top: 10%;
+    position: relative;
+    right: 25%;
+}
+
+.text_block {
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+.text {
+    color: $background2;
+}
+
+.button_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    padding: 9vw 3.5vw 0 3.5vw;
+}
+
+button {
+    height: 8vh;
+    border: none;
+    @include text1;
+    color: $color3;
+    width: 100%;
+}
+
+.button_game {
+    background-color: $background2;
+}
+
+.button_list {
+    background-color: $color1;
+}
+
+.library_img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    /* CSS-стили Tablet*/
+
+}
+
+@media screen and (max-width: 599px) {
+    /* CSS-стили Smartphone*/
+
+}

@@ -1,0 +1,50 @@
+@import "../../style/variables.scss";
+@import "../../style/template.scss";
+
+.conteuner {
+    margin-top: 5vh;
+    min-height: 80vh;
+}
+
+.cont {
+    @include text1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.btn {
+    background-color: $color3;
+    border: none;
+}
+
+.icon {
+    width: 4vw;
+}
+
+.count {
+    @include text2;
+    text-align: center;
+
+
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+
+    /* CSS-стили Tablet*/
+
+    .icon {
+        width: 5.5vw;
+    }
+}
+
+@media screen and (max-width: 599px) {
+
+    /* CSS-стили Smartphone*/
+    .icon {
+        width: 7.5vw;
+    }
+}

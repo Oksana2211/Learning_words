@@ -1,0 +1,38 @@
+@import "../../style/variables.scss";
+@import "../../style/template.scss";
+
+.newWord {
+    @include text1;
+    width: 30vw;
+    padding-left: 35vw;
+
+}
+
+.wordTitle {
+    @include text3;
+    color: $color1;
+}
+
+
+.wordInput {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-top: 1vw;
+
+}
+
+.wordInvalid {
+    border: 1px solid $color4;
+}
+
+.errorMessage {
+    color: $color4;
+}
+
+.btnSave {
+    @include text4;
+    margin-top: 1vw;
+    width: 8vw;
+    height: 4vh;
+    margin-left: 11vw;
+}

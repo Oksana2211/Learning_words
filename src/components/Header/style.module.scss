@@ -1,0 +1,48 @@
+@import "../../style/variables.scss";
+@import "../../style/template.scss";
+
+.cont {
+    @include text1;
+    background-color: $color1;
+    color: $color3;
+    display: grid;
+    grid-template-columns: 20% 65% 15%;
+    align-items: center;
+
+}
+
+.logo {
+    text-align: center;
+    background-color: $background2;
+    padding-top: 5%;
+}
+
+.logoIcon {
+    width: 11vw;
+}
+
+@media (min-width: 650px) and (max-width: 1023px) {
+
+    /* CSS-стили Tablet*/
+    .cont {
+        grid-template-columns: 25% 55% 20%;
+    }
+
+    .logoIcon {
+        width: 14vw;
+    }
+
+}
+
+@media screen and (max-width: 649px) {
+
+    /* CSS-стили Smartphone*/
+    .cont {
+        @include text4;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .logoIcon {
+        width: 20vw;
+    }
+}
