@@ -1,20 +1,13 @@
 import React from "react"
-import { useContext, useState } from "react";
+import { useState } from "react";
 import style from './style.module.scss'
 import iconPencil from '../../img/pencil.png'
 import iconBasket from '../../img/trash_сan.png'
 import iconTick from '../../img/iconTick.png'
 import iconCancel from '../../img/iconCancel.png'
-import { Context } from "../Contex/Context";
-
-
 
 
 export default function WordList(props) {
-
-    // const { words } = useContext(Context);
-    // console.log(props)
-
 
     const english = props.item.english;
     const transcription = props.item.transcription;
@@ -169,17 +162,3 @@ export default function WordList(props) {
     )
 }
 
-
-
-//     return (
-
-//         <section className={style.list}>
-//             <div>{props.item.english}</div>
-//             <div>{props.item.transcription}</div>
-//             <div>{props.item.russian}</div>
-//             <div><button><img className={style.icon} src={iconPencil} alt="icon pensil" /></button>
-//                 <button><img className={style.icon} src={iconBasket} alt="icon delete" /></button></div>
-//         </section>
-
-//     )
-// }

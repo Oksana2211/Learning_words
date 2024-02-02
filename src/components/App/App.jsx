@@ -1,12 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
-import Main from "../Main/Main";
+// import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import { Home, Game, Words, Error } from '../../pages'
-
-
-
 
 
 function App() {
@@ -17,7 +14,7 @@ function App() {
         <div>
             <Router>
                 <Header />
-                <Main />
+                {/* <Main /> */}
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/game" element={<Game />} />

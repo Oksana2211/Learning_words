@@ -8,6 +8,5 @@ export default function Error() {
       <img className={style.cont} src={ErrorImg} alt='Error' />
       <p className={style.text}>Ошибка! Вернитесь на главную страницу.</p>
     </div>
-
   )
 }

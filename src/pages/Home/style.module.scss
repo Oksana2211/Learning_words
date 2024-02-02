@@ -60,6 +60,8 @@ button:hover {
 
 
 @media (min-width: 650px) and (max-width: 1023px) {
+
+    /* CSS-стили Tablet*/
     .cont {
         @include text1;
         height: 83.8vh;
@@ -75,9 +77,6 @@ button:hover {
         margin-top: 22%;
         right: 35%;
     }
-
-    /* CSS-стили Tablet*/
-
 }
 
 @media screen and (max-width: 649px) {

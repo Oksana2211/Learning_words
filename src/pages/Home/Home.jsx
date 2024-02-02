@@ -16,7 +16,6 @@ export default function Home() {
                     <Link to='/game'><button type='button' className={style.button_game}>Игра</button></Link>
                     <Link to='/words'><button className={style.button_list}>Список слов</button></Link>
                 </div>
-
             </div>
         </section>
     )

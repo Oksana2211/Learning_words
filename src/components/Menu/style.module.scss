@@ -11,16 +11,12 @@
     color: $color3;
 }
 
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 650px) and (max-width: 1023px) {
     /* CSS-стили Tablet*/
 
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 649px) {
     /* CSS-стили Smartphone*/
 
 }
-
-// .item:active {
-//     color: $color-red;
-// }

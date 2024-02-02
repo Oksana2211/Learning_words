@@ -2,12 +2,8 @@ import React from "react"
 import WordList from "./WordList";
 import style from "./style.module.scss"
 import NewWord from "../NewWord/NewWord"
-// import distionaryArr from '../../components/data/.json'
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Context } from "../Contex/Context";
-
-
-
 
 
 export default function List() {

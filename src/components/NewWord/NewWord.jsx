@@ -5,7 +5,6 @@ import { Context } from "../Contex/Context";
 
 
 
-
 export default function NewWord() {
 
     const [form, setForm] = useState({
