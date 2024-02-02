@@ -2,14 +2,14 @@
 @import "../../style/template.scss";
 
 .newWord {
-    @include text1;
+    @include text4;
     width: 30vw;
     padding-left: 35vw;
 
 }
 
 .wordTitle {
-    @include text3;
+    @include text2;
     color: $color1;
 }
 
@@ -32,7 +32,9 @@
 .btnSave {
     @include text4;
     margin-top: 1vw;
-    width: 8vw;
-    height: 4vh;
+    width: 9vw;
+    height: 5vh;
+    border-radius: 2.5vw;
     margin-left: 11vw;
+    background-color: $color2;
 }

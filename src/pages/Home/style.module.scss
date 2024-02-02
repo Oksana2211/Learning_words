@@ -46,6 +46,10 @@ button {
     width: 100%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .button_game {
     background-color: $background2;
 }
