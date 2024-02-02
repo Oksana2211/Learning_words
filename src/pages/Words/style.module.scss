@@ -3,8 +3,8 @@
 
 .cont {
     @include text1;
-    // height: 80vh;
-    margin: 5vw auto 5vw auto;
+    height: 76vh;
+    margin: 1.5vw auto 1.5vw auto;
 }
 
 .conteunerButton {
@@ -23,12 +23,19 @@
 }
 
 
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 650px) and (max-width: 1023px) {
+
     /* CSS-стили Tablet*/
+    .cont {
+        height: 79.5vh;
+    }
 
 }
 
-@media screen and (max-width: 599px) {
-    /* CSS-стили Smartphone*/
+@media screen and (max-width: 649px) {
 
+    /* CSS-стили Smartphone*/
+    .cont {
+        height: 78.5vh;
+    }
 }

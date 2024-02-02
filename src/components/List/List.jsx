@@ -23,7 +23,6 @@ export default function List() {
                     <div>Russian</div>
                     <div>Редактировать/Удалить</div>
                 </div>
-
                 {words.map((item, index) => (
                     < WordList item={item} key={index} />
                 ))}

@@ -11,7 +11,6 @@ export default function Words() {
     return (
         <section className={style.cont}>
             <List />
-
         </section>
     )
 }

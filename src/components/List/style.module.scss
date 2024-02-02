@@ -2,11 +2,13 @@
 @import "../../style/template.scss";
 
 .conteuner {
-    height: 64vh;
+    height: 80vh;
+    // display: grid;
+    // grid-template-rows: 1fr 1fr;
 }
 
 .cont {
-    height: 20vw;
+    height: 22vw;
     padding-left: 3%;
     overflow: scroll;
 }
@@ -18,12 +20,8 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 90vw;
     align-items: center;
     justify-items: center;
-    padding: 0.5vw;
-
-
 }
 
 .listTitle {

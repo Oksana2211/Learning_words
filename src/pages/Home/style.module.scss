@@ -2,9 +2,9 @@
 @import "../../style/template.scss";
 
 .cont {
-    height: 85vh;
+    height: 82vh;
     display: grid;
-    grid-template-columns: 1fr 0.7fr;
+    grid-template-columns: 0.9fr 0.7fr;
     background-color: $color1;
     @include text2;
 }
@@ -58,6 +58,7 @@ button {
 @media (min-width: 650px) and (max-width: 1023px) {
     .cont {
         @include text1;
+        height: 83.8vh;
     }
 
     .library_img {
@@ -79,7 +80,7 @@ button {
 
     /* CSS-стили Smartphone*/
     .cont {
-        height: 81.5vh;
+        height: 81vh;
         @include text4;
     }
 
@@ -89,8 +90,13 @@ button {
 
     .content_block {
         height: 50%;
-        width: 37vw;
-        margin-top: 32%;
-        right: 75%;
+        width: 49vw;
+        margin-top: 34%;
+        right: 85%;
+    }
+
+    button {
+        height: 7vh;
+        @include text4;
     }
 }
