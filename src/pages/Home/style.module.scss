@@ -2,6 +2,7 @@
 @import "../../style/template.scss";
 
 .cont {
+    height: 85vh;
     display: grid;
     grid-template-columns: 1fr 0.7fr;
     background-color: $color1;
@@ -53,17 +54,43 @@ button {
     background-color: $color1;
 }
 
-.library_img {
-    height: 100%;
-    width: 100%;
-}
 
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 650px) and (max-width: 1023px) {
+    .cont {
+        @include text1;
+    }
+
+    .library_img {
+        width: 65vw;
+    }
+
+    .content_block {
+        height: 50%;
+        width: 47vw;
+        margin-top: 22%;
+        right: 35%;
+    }
+
     /* CSS-стили Tablet*/
 
 }
 
-@media screen and (max-width: 599px) {
-    /* CSS-стили Smartphone*/
+@media screen and (max-width: 649px) {
 
+    /* CSS-стили Smartphone*/
+    .cont {
+        height: 81.5vh;
+        @include text4;
+    }
+
+    .library_img {
+        width: 85vw;
+    }
+
+    .content_block {
+        height: 50%;
+        width: 37vw;
+        margin-top: 32%;
+        right: 75%;
+    }
 }
