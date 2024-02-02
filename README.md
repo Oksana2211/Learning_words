@@ -1,4 +1,4 @@
-# Приложение на React для изучения иностранных языков 
+# Приложение на React для изучения иностранных слов 
 
 <img align="center" width=800 src="src\img\HomePage.jpg" />
 <img align="center" width=800 src="src\img\GamePage.jpg" />
