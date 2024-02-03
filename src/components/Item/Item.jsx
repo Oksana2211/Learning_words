@@ -4,8 +4,8 @@ import style from './style.module.scss'
 export default function Item(props) {
 
     const { english, transcription, russian, index, activeCards, setId, handlNextCount } = props;
-    const classItemActive = activeCards ? 'transcriptionActiv' : "transcription"
-    const classButtonActive = activeCards ? 'buttonActiv' : "button"
+    const classItemActive = activeCards ? 'transcription-activ' : "transcription"
+    const classButtonActive = activeCards ? 'button-activ' : "button"
 
     const ref = useRef();
     useEffect(() => ref.current.focus(), []);

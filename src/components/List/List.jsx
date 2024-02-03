@@ -13,7 +13,7 @@ export default function List() {
     return (
         <section className={style.conteuner}>
             <div className={style.cont}>
-                <div className={`${style.list} ${style.listTitle}`}>
+                <div className={`${style.list} ${style.list__title}`}>
                     <div>English</div>
                     <div>Transcription</div>
                     <div>Russian</div>

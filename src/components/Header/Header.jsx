@@ -8,7 +8,7 @@ import Logo from "../../img/Logo.png"
 export default function Header() {
     return (
         <section className={style.cont}>
-            <div className={style.logo}><Link to='/'><img className={style.logoIcon} src={Logo} alt='Logo' /></Link></div>
+            <div className={style.logo}><Link to='/'><img className={style.logo__icon} src={Logo} alt='Logo' /></Link></div>
             <Menu />
             <div><p>+79017287587</p></div>
         </section>

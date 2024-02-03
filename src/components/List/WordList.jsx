@@ -78,7 +78,7 @@ export default function WordList(props) {
         <>
             <div
                 className={
-                    deleted === true ? style.list : style.listNone
+                    deleted === true ? style.list : style.list__none
                 }
             >
                 {edit === true ? (
